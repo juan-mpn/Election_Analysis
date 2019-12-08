@@ -90,13 +90,25 @@ with open(file_to_load) as election_data:
     # Read the file object with the reader function.
     file_reader = csv.reader(election_data)
 
-        # Print each row in the CSV file.
-    lines = 10
-    # Print the header row.
+    
+    # Header row.
     headers = next(file_reader)
+
+    # print only 10 lines
+    lines = 10
+    # Initializa Analysis variables
+    total_votes = 0
+    # Print each row in the CSV file.
     for row in file_reader:
-        print(row[0])
-        lines -= 1
-        if lines < 1:
-            break
-    print(f"\nHeaders\n{headers}")
+#        print(row) # row[0])
+#        lines -= 1
+#        if lines < 1:
+#            break
+        total_votes += 1
+
+    # Print Header
+    print(f"\nHeaders\n{headers}\n")
+    # Print total votes
+    print(f"Total Votes {total_votes}")
+
+    
