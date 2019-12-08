@@ -1,0 +1,34 @@
+Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> python -m pip install --upgrade pip setuptools wheel
+SyntaxError: invalid syntax
+>>> python -m ensurepip --default-pip
+SyntaxError: invalid syntax
+>>> import numpy
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    import numpy
+ModuleNotFoundError: No module named 'numpy'
+>>> import csv
+>>> dir(numpy)
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    dir(numpy)
+NameError: name 'numpy' is not defined
+>>> dir(csv)
+['Dialect', 'DictReader', 'DictWriter', 'Error', 'OrderedDict', 'QUOTE_ALL', 'QUOTE_MINIMAL', 'QUOTE_NONE', 'QUOTE_NONNUMERIC', 'Sniffer', 'StringIO', '_Dialect', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', '__version__', 'excel', 'excel_tab', 'field_size_limit', 'get_dialect', 'list_dialects', 're', 'reader', 'register_dialect', 'unix_dialect', 'unregister_dialect', 'writer']
+>>> python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+SyntaxError: invalid syntax
+>>> pip --version
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    pip --version
+NameError: name 'pip' is not defined
+>>> curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+SyntaxError: invalid syntax
+>>> python --version
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    python --version
+NameError: name 'python' is not defined
+>>> 
