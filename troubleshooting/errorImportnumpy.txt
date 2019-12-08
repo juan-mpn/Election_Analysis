@@ -32,3 +32,9 @@ Traceback (most recent call last):
     python --version
 NameError: name 'python' is not defined
 >>> 
+
+>>> conda list
+SyntaxError: invalid syntax
+
+2. 
+   VS Terminal color is not user friendly in examples it is blue for percent and white for labels
