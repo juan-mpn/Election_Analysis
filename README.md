@@ -40,6 +40,27 @@ The winner of the election based on popular vote
 - Candidate (1,2 or 3) who received "x%" of the vote and "y" number of votes.
 
 ## Challenge Overview
+The goals of this challenge are for you to:
+
+Extend your use of for loops and conditionals with membership and logical operators.
+Scope and refactor code to provide additional information.
+Write data to an output file and print the file.
+ie. 
+-------------------------
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+-------------------------
+Largest County Turnout: Denver
+-------------------------
 
 ## Challenge Summary
-
+Make a copy of the PyPoll.py file that you used throughout this module and rename it PyPoll_Challenge.py.
+Create a list for the counties.
+Create a dictionary where the county is the key and the votes cast for each county in the election are the values.
+Create an empty string that will hold the county name that had the largest turnout.
+Declare a variable that represents the number of votes that a county received. Hint: Inside a for loop, add an if statement to check if the county name has already been recorded. If not, add it to the list of county names.
+Inside the with open() function where you are outputting the file, do the following:
+Create three if statements to print out the voter turnout results similar to the results shown above.
+Add the results to the output file.
+Print the results to the command line.
