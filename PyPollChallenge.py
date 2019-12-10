@@ -33,7 +33,7 @@ import os
 # Use the now() attribute on the datetime class to get the present time.
 now = datetime.datetime.now()
 # Print the present time.
-print(f"\nThe time right now is, {now}\n")
+# print(f"\nThe time right now is, {now}\n")
 # Assign a variable to load a file from a path.
 file_to_load = os.path.join("Resources/election_results.csv")
 # Assign a variable to save the file to a path.
@@ -98,13 +98,13 @@ with open(file_to_load) as election_data:
         # Count Candidate votes    
         candidate_votes[candidate_name] += 1
     
-    print(f"\nHeaders\n{headers}")
-    # Print total votes
-    print(f"\nTotal Votes: {total_votes}")
-    # Print the candidate list.
-    print(f"\nCandidate Options\n {candidate_options}\n")
-    # Print the candidates dictionary
-    print(f"\nCandidate Votes Dictionary\n {candidate_votes}\n")
+    # print(f"\nHeaders\n{headers}")
+    # # Print total votes
+    # print(f"\nTotal Votes: {total_votes}")
+    # # Print the candidate list.
+    # print(f"\nCandidate Options\n {candidate_options}\n")
+    # # Print the candidates dictionary
+    # print(f"\nCandidate Votes Dictionary\n {candidate_votes}\n")
 
     # Save the results to our text file.
     # Print Header
