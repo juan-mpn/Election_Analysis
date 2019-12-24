@@ -3,6 +3,7 @@
 Juan M. Pacheco
 12/8/2019
 UCB Data Analytics
+Python, VS Studio
 ## Project Overview
 A Colorado Board of Election employee has given us the following tasks to complete the election audit of a recent local congressional election. 
 
